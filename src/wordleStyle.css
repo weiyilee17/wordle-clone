@@ -1,0 +1,76 @@
+.header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  height: 75vh;
+  justify-content: center;
+}
+
+.line {
+  display: flex;
+  gap: 5px;
+}
+
+.tile {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.close {
+  background-color: yellow;
+}
+
+.wrong {
+  background-color: lightgray;
+}
+
+.game-status {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.won {
+  color: green;
+}
+
+.lost {
+  color: red;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.try-again-button {
+  font-size: 1rem;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  border-radius: 5%;
+}
+
+.try-again-button:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
